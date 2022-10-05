@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    flex-direction: column;
     justify-content: space-between;
-    height: 80px;
     align-items: center;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
 }
@@ -11,18 +11,15 @@
 
 @media screen and (min-width: 768px) {
     .header {
+        flex-direction: row;
+
+        height: 80px;
         padding: 0 20px;
-
-
     }
 }
-
-
-
 
 @media screen and (min-width: 1280px) {
     .header {
         padding: 0 100px;
-
     }
 }

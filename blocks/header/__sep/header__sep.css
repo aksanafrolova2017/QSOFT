@@ -1,0 +1,14 @@
+.header__sep {
+    width: 100%;
+    height: 1px;
+    background: #EBEBF1;
+    order: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .header__sep {
+        width: 1px;
+        height: 100%;
+        order: 3;
+    }
+}

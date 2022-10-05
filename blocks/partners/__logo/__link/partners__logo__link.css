@@ -1,9 +1,15 @@
 .partners__logo__link {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 10px;
+  height: 140px;
+  width: 100%;
   background: #FFFFFF;
   border: 1px solid #EBEBF1;
   border-radius: 5px;
-  flex: 0 0 287px;
-
+  flex-grow: 0;
 }
 
 .partners__logo__link:hover {
@@ -12,11 +18,15 @@
 }
 
 
-
-
-@media (max-width: 375px) {
+@media screen and (min-width: 768px) {
   .partners__logo__link {
-    height: auto;
-    width: 100%;
+    width: 220px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .partners__logo__link {
+    width: 220px;
   }
 }
