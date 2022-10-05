@@ -1,0 +1,23 @@
+.search-box {
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #EBEBF1;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .search-box {
+        width: 344px;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .search-box {
+        width: 835px;
+
+    }
+}

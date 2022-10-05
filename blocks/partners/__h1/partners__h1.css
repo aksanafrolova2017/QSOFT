@@ -1,0 +1,23 @@
+.partners__h1 {
+
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #121920;
+    margin-bottom: 30px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .partners__h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .partners__h1 {
+        font-size: 36px;
+    }
+}

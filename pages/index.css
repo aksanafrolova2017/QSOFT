@@ -1,0 +1,24 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/inter.css");
+
+@import url("../blocks/body/body.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+
+@import url("../blocks/partners/partners.css");
+@import url("../blocks/partners/__logo/partners__logo.css");
+@import url("../blocks/partners/__h1/partners__h1.css");
+@import url("../blocks/partners/__logo/__photo/partners__logo__photo.css");
+@import url("../blocks/partners/__logo/__link/partners__logo__link.css");
+
+@import url("../blocks/profile/profile.css");
+@import url("../blocks/profile/__name/profile__name.css");
+@import url("../blocks/profile/__photo/profile__photo.css");
+@import url("../blocks/profile/__mobile/profile__mobile.css");
+
+@import url('../blocks/line/line.css');
+
+@import url("../blocks/search-box/search-box.css");
+@import url("../blocks/search-box/__search-btn/search-box__search-btn.css");
+@import url("../blocks/search-box/__search-txt/search-box__search-txt.css");

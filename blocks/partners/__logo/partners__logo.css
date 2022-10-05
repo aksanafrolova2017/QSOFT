@@ -1,0 +1,25 @@
+.partners__logo {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .partners__logo {
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .partners__logo {
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}
